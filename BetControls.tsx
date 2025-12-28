@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Minus, Plus, Settings2 } from 'lucide-react';
-import { GameState, Bet } from '../types';
+import { GameState, Bet } from './types';
 
 interface BetPanelProps {
   id: string;

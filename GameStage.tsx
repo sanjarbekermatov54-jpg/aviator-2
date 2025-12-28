@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { GameState } from '../types';
+import { GameState } from './types';
 
 interface GameStageProps {
   multiplier: number;

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Bet } from '../types';
+import { Bet } from './types';
 
 interface BetListProps {
   liveBets: Bet[];

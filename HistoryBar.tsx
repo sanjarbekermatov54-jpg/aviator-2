@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { GameHistory } from '../types';
+import { GameHistory } from './types';
 
 interface HistoryBarProps {
   history: GameHistory[];

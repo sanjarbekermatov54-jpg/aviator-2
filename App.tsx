@@ -3,12 +3,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import { History, Info, Settings } from 'lucide-react';
 import { GameState, Bet, GameHistory } from './types';
 import { GameEngine } from './GameEngine';
-import Header from './components/Header';
-import HistoryBar from './components/HistoryBar';
-import GameStage from './components/GameStage';
-import BetControls from './components/BetControls';
-import BetList from './components/BetList';
-import { DepositModal, MenuDrawer } from './components/Modals';
+import Header from './Header';
+import HistoryBar from './HistoryBar';
+import GameStage from './GameStage';
+import BetControls from './BetControls';
+import BetList from './BetList';
+import { DepositModal, MenuDrawer } from './Modals';
 
 const STORAGE_KEY = 'aviator_balance_v2';
 const INITIAL_BALANCE = 500000;
